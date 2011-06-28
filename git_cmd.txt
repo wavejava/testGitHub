@@ -1,0 +1,84 @@
+
+git 
+
+git config --global user.name "wavejava"
+git config --global user.email wavejava@gmail.com
+
+git config --list
+git help
+
+Setting ignore
+--------------------
+cat .gitignore 
+.DS_Store
+Thumbs.db
+._*
+
+printf ".DS_Store" >> .gitignore
+printf ".DS_Store\nThumbs.db\n" >> .gitignore
+
+Creating and Commiting
+----------------------
+$ cd (project-directory)
+$ git init
+$ (add some files)
+$ git add .
+$ git commit -m 'Initial commit'
+$ git commit -a -m 'add & commit'
+
+Cloning and Creating a Patch
+----------------------------
+$ git clone git://github.com/git/hello-world.git
+$ cd hello-world
+$ (edit files)
+$ git add (files)
+$ git commit -m 'Explain what I changed'
+$ git format-patch origin/master
+
+git clone git://github.com/schacon/grit.git
+
+git diff
+git diff --cached
+
+git commit -a -m 'added new benchmarks' //automatically stage every file that is already tracked
+git rm filename
+git rm --cached filename 
+git mv file_org file_new
+
+git log
+git log -p -2 
+git log --pretty=oneline
+git log --pretty=format:"%h - %an, %ar : %s"
+git log --pretty=format:"%h %s" --graph
+gitk
+
+$ git commit -m 'initial commit'
+$ git add forgotten_file
+$ git commit --amend  // Changing Your Last Commit
+
+Remote
+----------------------------
+git remote -v
+git remote show origin 
+$ git remote add pb git://github.com/paulboone/ticgit.git
+$ git remote -v
+origin	git://github.com/schacon/ticgit.git
+pb	git://github.com/paulboone/ticgit.git
+$ git fetch pb
+
+Tag
+----------------------------
+git tag v0.1
+$ git tag -a v1.4 -m 'my version 1.4'
+$ git push origin v1.5
+$ git push origin --tags
+
+Brunches
+----------------------------
+git branch testing
+git checkout testing
+git checkout master
+git merge testing
+git branch -d testing
+git branch
+git branch --merged
