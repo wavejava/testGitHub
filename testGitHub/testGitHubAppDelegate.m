@@ -71,7 +71,7 @@
 
 - (void)awakeFromNib
 {
-    RootViewController *rootViewController = (RootViewController *)[self.navigationController topViewController];
+//    RootViewController *rootViewController = (RootViewController *)[self.navigationController topViewController];
 //    rootViewController.managedObjectContext = self.managedObjectContext;
 }
 
