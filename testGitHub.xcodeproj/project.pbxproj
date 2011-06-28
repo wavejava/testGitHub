@@ -18,6 +18,8 @@
 		FE0E320F13B98ABD0047EEDA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE0E320D13B98ABD0047EEDA /* MainWindow.xib */; };
 		FE0E321213B98ABD0047EEDA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0E321113B98ABD0047EEDA /* RootViewController.m */; };
 		FE0E321513B98ABD0047EEDA /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE0E321313B98ABD0047EEDA /* RootViewController.xib */; };
+		FE45C8AC13B9C224007B17C4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE45C8AA13B9C224007B17C4 /* DetailViewController.m */; };
+		FE45C8AD13B9C224007B17C4 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE45C8AB13B9C224007B17C4 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		FE0E321013B98ABD0047EEDA /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		FE0E321113B98ABD0047EEDA /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		FE0E321413B98ABD0047EEDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		FE45C8A913B9C224007B17C4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FE45C8AA13B9C224007B17C4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FE45C8AB13B9C224007B17C4 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +98,9 @@
 				FE0E321313B98ABD0047EEDA /* RootViewController.xib */,
 				FE0E320A13B98ABD0047EEDA /* testGitHub.xcdatamodeld */,
 				FE0E31FF13B98ABD0047EEDA /* Supporting Files */,
+				FE45C8A913B9C224007B17C4 /* DetailViewController.h */,
+				FE45C8AA13B9C224007B17C4 /* DetailViewController.m */,
+				FE45C8AB13B9C224007B17C4 /* DetailViewController.xib */,
 			);
 			path = testGitHub;
 			sourceTree = "<group>";
@@ -161,6 +169,7 @@
 				FE0E320313B98ABD0047EEDA /* InfoPlist.strings in Resources */,
 				FE0E320F13B98ABD0047EEDA /* MainWindow.xib in Resources */,
 				FE0E321513B98ABD0047EEDA /* RootViewController.xib in Resources */,
+				FE45C8AD13B9C224007B17C4 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +184,7 @@
 				FE0E320913B98ABD0047EEDA /* testGitHubAppDelegate.m in Sources */,
 				FE0E320C13B98ABD0047EEDA /* testGitHub.xcdatamodeld in Sources */,
 				FE0E321213B98ABD0047EEDA /* RootViewController.m in Sources */,
+				FE45C8AC13B9C224007B17C4 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +297,7 @@
 				FE0E321A13B98ABD0047EEDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
